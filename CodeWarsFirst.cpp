@@ -1,3 +1,7 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
 float find_uniq(const std::vector<float> &v)
 {
   for (int i=2; i <= v.size() ;i++)
@@ -15,4 +19,9 @@ float find_uniq(const std::vector<float> &v)
     {
     return v.back();
   }
+}
+
+int main()
+{
+  
 }
